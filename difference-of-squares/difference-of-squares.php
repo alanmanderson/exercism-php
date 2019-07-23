@@ -17,7 +17,5 @@ function sumOfSquares($n) {
 }
 
 function difference($n) {
-    $sumOfSquares = sumOfSquares($n);
-    $squareOfSum = squareOfSum($n);
-    return $squareOfSum - $sumOfSquares;
+    return squareOfSum($n) - sumOfSquares($n);
 }
